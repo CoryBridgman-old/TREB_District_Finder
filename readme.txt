@@ -1,7 +1,7 @@
 1) Working example at https://bridgmco.dev.fast.sheridanc.on.ca/showcase/treb_geolocate.php
 
 2) Coordinates are periodically updated from google to correct "drift"
-2.1) Updates are done via Python reading from .XML and writing to .JSON
+2.1) Updates are done via a custom Python program which reads from a .XML file, gathered from google.ca/mymaps, and writes a .JSON
 
 3) Calculation is run in JavaScript to maximize performance by removing latency
 
